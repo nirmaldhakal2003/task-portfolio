@@ -1,0 +1,145 @@
+*{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.3;
+    }
+
+    .marginfix {
+      max-width: 1300px;
+      margin: auto;
+      padding: 1em;
+    }
+    .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+    .navbar ul{
+        display: flex;
+        margin-left:710px;
+        font-weight: bold;
+    }
+    .navbar ul li{
+        margin:35px 30px 0px 0px;
+        font-size: 20px;
+    }
+    .navbar ul li a{
+        color: black;
+    }
+
+    .navbar ul li a:hover{
+        text-shadow: 1px 3px 5px red;
+
+    }
+
+
+    /* home section start  */
+    .home{
+        height: 100%;
+        align-items: center;
+    }
+
+
+    .home .marginfix{
+        display: flex;
+        align-items: center;
+        
+
+    }
+    
+   
+
+    .home h1{
+        font-size:70px;
+    }
+
+    .home h2{
+      font-size: 30px;
+    }
+    .home span{
+        color: red;
+        text-shadow: 1px 3px 5px orange;
+    }
+    .home .socials{
+        margin-top: 20px;
+    }
+    .home .socials a i{
+        font-size: 30px;
+        padding-right: 30px;
+    }
+    .home .socials a i:hover{
+        text-shadow: 0px 1px 1px rgb(251, 0, 79);
+    }
+
+    .home button{
+        margin: 20px;
+        width: 200px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius:20px;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 0, 0);
+    }
+     .home button:hover{
+        background-color: white;
+        color: black;
+     }
+     
+    .home .homephoto{
+        float: left;
+        margin-left: 200px;
+        width: auto;
+    }
+
+    /* about section start */
+    .about{
+        background-color: black;
+        color: white;
+        height: auto;
+
+    }
+    .about h1{
+        font-size: 50px;
+        text-align: center;
+        text-shadow: 1px 3px 1px red;
+    }
+
+    .about h2{
+        text-align: center;
+    }
+    .about .about-flex{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    .about .about-container{
+        width: 800px;
+        height: auto;
+        /* border:1px solid white; */
+        text-align: justify;
+        margin: auto;
+        margin-left: 180px;
+       
+
+    }
+    .about .about-container h2{
+        text-shadow: 1px 3px 2px orange;
+    }
+    .about .about-container span{
+        color: red;
+    }
+
+    .about .about-image{
+        margin-bottom: 50px;
+
+        box-shadow: 20px 20px 15px white;
+    }
+    
+    
+
+    
+     
